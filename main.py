@@ -26,8 +26,6 @@ def make_password():
     pyperclip.copy(password_input.get())
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
-
-
 def save():
     website = website_input.get()
     email = email_username_input.get()
